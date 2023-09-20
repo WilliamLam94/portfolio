@@ -12,8 +12,8 @@ body {
 }
 
 header {
-	border: 2px solid red;
-	background-color: #696969;
+	/* border: 2px solid red; */
+	background-color: #26262c;
 }
 /* Burger menu */
 li {
@@ -41,11 +41,15 @@ a {
 }
 
 .nav-branding {
-	font-size: 2rem;
+	font-size: 3.5rem;
+	color: #ffb700;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Skranji', cursive;
 }
 
 .nav-link {
-	color: white;
+	color: #ffb700;
 	transition: 0.7s ease;
 }
 
@@ -61,7 +65,7 @@ a {
 	margin: 0.3125rem auto;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	background-color: white;
+	background-color: #ffb700;
 }
 
 .hamburger {
@@ -83,7 +87,7 @@ a {
 	top: 4.375rem;
 	gap: 0;
 	flex-direction: column;
-	background-color: #464646;
+	background-color: #26262c;
 	width: 100%;
 	text-align: center;
 	transition: 0.3s;
@@ -100,7 +104,7 @@ a {
 
 /* Hero */
 main {
-	border: 2px solid greenyellow;
+	/* border: 2px solid greenyellow; */
 }
 
 #home {
@@ -123,15 +127,16 @@ main {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: red;
+	color: #ffb700;
 }
 
 footer {
+	background-color: #26262c;
 	border: 2px solid blueviolet;
 }
 
 .footer-icon {
-	color: red;
+	color: #ffb700;
 	font-size: 2rem;
 }
 
@@ -143,6 +148,6 @@ footer {
 @media screen and (min-width: 1024px) {
 	/* Burger */
 	.nav-link:hover {
-		color: #ffb700;
+		color: white;
 	}
 }
