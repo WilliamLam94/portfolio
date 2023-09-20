@@ -8,13 +8,19 @@
 			src="https://kit.fontawesome.com/ea47386503.js"
 			crossorigin="anonymous"
 		></script>
-		<script src="js/script.js" defer></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Roboto+Condensed:wght@300&family=Skranji&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Roboto+Condensed:wght@300&family=Skranji&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="js/script.js" defer></script>
 		<title>Portfolio</title>
 	</head>
 	<body>
@@ -65,12 +71,45 @@
 			<!-- about section -->
 			<section id="about">
 				<!-- 3 block info om en själv(vad menas 3 block?) -->
+				<h3>About me</h3>
+				<div>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vel
+						consequuntur quo illum qui reprehenderit expedita nobis vitae, earum
+						facere, impedit pariatur dolor voluptatum, officia veritatis ut
+						cumque? Incidunt, doloremque!
+					</p>
+				</div>
+				<div>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vel
+						consequuntur quo illum qui reprehenderit expedita nobis vitae, earum
+						facere, impedit pariatur dolor voluptatum, officia veritatis ut
+						cumque? Incidunt, doloremque!
+					</p>
+				</div>
+				<div>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vel
+						consequuntur quo illum qui reprehenderit expedita nobis vitae, earum
+						facere, impedit pariatur dolor voluptatum, officia veritatis ut
+						cumque? Incidunt, doloremque!
+					</p>
+				</div>
 			</section>
 
 			<!-- skills section -->
 			<section id="skills">
 				<!-- html,css,javascript,4de skill -->
-				<progress></progress>
+				<h3>Skills</h3>
+				<h5>HTML</h5>
+				<progress value="70" max="100"></progress>
+				<h5>CSS</h5>
+				<progress value="50" max="100"></progress>
+				<h5>Javascript</h5>
+				<progress value="15" max="100"></progress>
+				<h5>Star Wars</h5>
+				<progress value="100" max="100"></progress>
 			</section>
 
 			<!-- blog section -->
@@ -78,6 +117,7 @@
 				<article class="blog-post">
 					<img src="" alt="" />
 					<p></p>
+					<aside></aside>
 				</article>
 
 				<article class="blog-post">
@@ -101,6 +141,26 @@
 			<!-- contact section -->
 			<section id="contact">
 				<!-- kontaktformulär -->
+				<h3>Contact</h3>
+				<form>
+					<!-- Fält för skriva sitt namn -->
+					<div>
+						<label for="name">Enter your name:</label>
+						<input type="text" name="name" id="name" required />
+					</div>
+
+					<div>
+						<!-- fält för skriva meddelande -->
+						<label for="textarea"> Message </label>
+						<textarea
+							name="textarea"
+							id="textarea"
+							rows="5"
+							cols="50"
+						></textarea>
+					</div>
+					<button class="btn-send">Send</button>
+				</form>
 			</section>
 		</main>
 

@@ -2,6 +2,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
@@ -51,6 +53,9 @@ a {
 .nav-link {
 	color: #ffb700;
 	transition: 0.7s ease;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Skranji', cursive;
 }
 
 .hamburger {
@@ -128,7 +133,22 @@ main {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: #ffb700;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Skranji', cursive;
 }
+
+/* About */
+
+/* Skills */
+#skills {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Blog */
+
+/* Contact */
 
 footer {
 	background-color: #26262c;
