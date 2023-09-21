@@ -203,6 +203,10 @@ a {
 	gap: 2rem;
 }
 
+progress {
+	width: 5rem;
+}
+
 /* Blog */
 
 aside {
