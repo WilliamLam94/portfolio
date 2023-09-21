@@ -14,9 +14,9 @@ body {
 }
 
 header {
-	/* border: 2px solid red; */
 	background-color: #26262c;
 }
+
 /* Burger menu */
 li {
 	list-style: none;
@@ -109,7 +109,7 @@ a {
 
 /* Hero */
 main {
-	/* border: 2px solid greenyellow; */
+	border: 2px solid greenyellow;
 }
 
 #home {
@@ -140,10 +140,23 @@ main {
 
 /* About */
 
+#about {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.about-content {
+	display: block;
+	margin-block-end: 1rem;
+}
+
 /* Skills */
+
 #skills {
 	display: flex;
 	flex-direction: column;
+	gap: 0.5rem;
 }
 
 /* Blog */
