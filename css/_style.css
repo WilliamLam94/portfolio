@@ -208,6 +208,7 @@ progress {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 	grid-template-rows: repeat(3, minmax(0, 1fr));
+	margin-block-end: 0;
 }
 
 .blog-header {
@@ -253,6 +254,38 @@ aside {
 
 /* Contact */
 
+#contact {
+	margin-block-start: 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+#name {
+	display: flex;
+	margin-block: 0.5rem;
+}
+
+#textarea {
+	resize: none;
+	margin-block: 0.5rem;
+}
+
+.btn-container {
+	display: flex;
+	justify-content: center;
+}
+
+.btn-send {
+	border-radius: 10px;
+	padding-block: 0.5rem;
+	width: 5rem;
+	background-color: #ffb700;
+}
+
+/* Contact information */
 footer {
 	background-color: #26262c;
 	display: flex;
