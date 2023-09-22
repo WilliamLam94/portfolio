@@ -179,6 +179,10 @@ a {
 	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;
+	background-color: #26262c;
+	border-radius: 10px;
+	padding-inline: 1rem;
+	padding-block: 1rem;
 }
 
 .about-content {
@@ -220,17 +224,29 @@ progress {
 	grid-column: 1/3;
 	grid-row: 1;
 	margin-block-end: 1rem;
+	background-color: #26262c;
+	border-radius: 10px;
+	padding-inline: 1rem;
+	padding-block: 1rem;
 }
 
 #mayo {
 	grid-column: 1/3;
 	grid-row: 2;
 	margin-block-end: 1rem;
+	background-color: #26262c;
+	border-radius: 10px;
+	padding-inline: 1rem;
+	padding-block: 1rem;
 }
 
 #my-free-time {
 	grid-column: 1/3;
 	grid-row: 3;
+	background-color: #26262c;
+	border-radius: 10px;
+	padding-inline: 1rem;
+	padding-block: 1rem;
 }
 
 .blog-image {
