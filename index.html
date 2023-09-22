@@ -342,9 +342,9 @@
 			<!-- blog section -->
 			<!-- blogg med text och bild -->
 			<section id="blog" class="space-inline">
-				<h3>Blog</h3>
+				<h3 class="blog-header">Blog</h3>
 
-				<article>
+				<article id="jojo">
 					<div class="blog-image-container">
 						<img class="blog-image" src="images/jojo.jpg" alt="katt" />
 					</div>
@@ -356,7 +356,7 @@
 					</p>
 				</article>
 
-				<article>
+				<article id="mayo">
 					<div class="blog-image-container">
 						<img class="blog-image" src="images/mayo.jpg" alt="katt" />
 					</div>
@@ -368,18 +368,24 @@
 					</p>
 				</article>
 
-				<article>
+				<article id="my-free-time">
 					<div class="blog-image-container">
 						<img class="blog-image" src="images/meme.jpg" alt="meme" />
 					</div>
 					<p>En perfekt bild som förklarar vad man hittar på sin fritid.</p>
 				</article>
-				<div>
+				<div class="aside-container">
 					<aside>
 						<ul>
-							<li>Link 1</li>
-							<li>Link 2</li>
-							<li>Link 3</li>
+							<li>
+								<a href="#jojo">Jojo</a>
+							</li>
+							<li>
+								<a href="#mayo">Mayo</a>
+							</li>
+							<li>
+								<a href="#my-free-time">My free time</a>
+							</li>
 						</ul>
 					</aside>
 				</div>
@@ -403,7 +409,7 @@
 							name="textarea"
 							id="textarea"
 							rows="5"
-							cols="50"
+							cols="55"
 						></textarea>
 					</div>
 					<button class="btn-send">Send</button>
