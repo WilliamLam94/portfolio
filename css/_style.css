@@ -211,8 +211,8 @@ progress {
 }
 
 .blog-header {
-	grid-column: span 3;
 	grid-row-end: 1;
+	margin-block-end: 1rem;
 }
 
 #jojo {
@@ -234,11 +234,10 @@ progress {
 	height: 15rem;
 	width: 100%;
 	object-fit: contain;
-	border: 2px solid #ffb700;
 }
 
 .aside-container {
-	grid-row: span 3;
+	grid-row: span 4;
 }
 
 aside {
