@@ -219,11 +219,13 @@ progress {
 #jojo {
 	grid-column: 1/3;
 	grid-row: 1;
+	margin-block-end: 1rem;
 }
 
 #mayo {
 	grid-column: 1/3;
 	grid-row: 2;
+	margin-block-end: 1rem;
 }
 
 #my-free-time {
@@ -235,6 +237,7 @@ progress {
 	height: 15rem;
 	width: 100%;
 	object-fit: contain;
+	margin-block-end: 1rem;
 }
 
 .aside-container {
