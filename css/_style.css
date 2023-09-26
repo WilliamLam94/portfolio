@@ -155,24 +155,6 @@ a {
 	margin-block: 1rem;
 }
 
-.card {
-	background-color: #ffb700;
-	color: #26262c;
-	padding: 1rem;
-	border-radius: 10px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	row-gap: 1.5rem;
-}
-
-.skill-image {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 1rem;
-}
-
 /* About */
 
 #about {
@@ -204,6 +186,25 @@ a {
 
 progress {
 	width: 5rem;
+}
+
+.card {
+	background-color: #ffb700;
+	color: #26262c;
+	font-weight: 600;
+	padding: 1rem;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 1.5rem;
+}
+
+.skill-image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
 }
 
 /* Blog */
