@@ -354,6 +354,23 @@ footer {
 	.article-container {
 		grid-column: span 3;
 	}
+
+	aside {
+		font-weight: 900;
+		margin-inline: 1.5rem;
+		padding-block: 1rem;
+		font-size: larger;
+	}
+
+	/* Contact information */
+
+	footer {
+		justify-content: space-between;
+	}
+
+	.footer-text {
+		padding-inline-end: 2rem;
+	}
 }
 
 /* Desktop */
