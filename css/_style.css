@@ -262,7 +262,7 @@ aside {
 	color: #26262c;
 	border-radius: 10px;
 	padding-block: 0.5rem;
-	margin-inline: 0.5rem;
+	margin-inline-start: 1rem;
 	grid-column-start: 4;
 	position: sticky;
 	top: 50%;
