@@ -273,10 +273,6 @@ aside {
 
 /* Contact */
 
-#contact {
-	margin-block-start: 0;
-}
-
 form {
 	display: flex;
 	flex-direction: column;
@@ -334,6 +330,30 @@ footer {
 /* Tablet */
 @media screen and (min-width: 768px) {
 	/* Skills */
+
+	.card {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.text-right {
+		grid-column: 1;
+		grid-row: 1;
+	}
+
+	.quote {
+		font-style: italic;
+	}
+
+	/* Blog */
+
+	#blog {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
+
+	.article-container {
+		grid-column: span 3;
+	}
 }
 
 /* Desktop */
