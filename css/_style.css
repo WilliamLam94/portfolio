@@ -251,7 +251,7 @@ progress {
 	height: 15rem;
 	width: 100%;
 	object-fit: contain;
-	margin-block-end: 1rem;
+	margin-block: 0.5rem;
 }
 
 .aside-container {
@@ -268,8 +268,8 @@ aside {
 	position: sticky;
 	top: 50%;
 	text-align: center;
-	line-height: 1.5rem;
-	font-weight: bold;
+	line-height: 2.5rem;
+	font-weight: 600;
 }
 
 /* Contact */
@@ -315,6 +315,7 @@ footer {
 
 .icon-container {
 	padding-inline-start: 2rem;
+	padding-block-start: 1rem;
 	display: flex;
 	gap: 1rem;
 }
@@ -328,6 +329,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	padding-inline-start: 5rem;
+	padding-block-start: 0.2rem;
 }
 
 /* Tablet */
