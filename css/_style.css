@@ -309,8 +309,6 @@ form {
 footer {
 	background-color: #26262c;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
 }
 
 .icon-container {
@@ -326,8 +324,6 @@ footer {
 }
 
 .footer-text {
-	display: flex;
-	flex-direction: column;
 	padding-inline-start: 5rem;
 	padding-block-start: 0.2rem;
 }
