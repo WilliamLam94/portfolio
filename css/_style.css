@@ -271,11 +271,6 @@ aside {
 	font-weight: 600;
 }
 
-aside:hover {
-	background-color: #26262c;
-	color: #ffb700;
-}
-
 /* Contact */
 
 form {
