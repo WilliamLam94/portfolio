@@ -330,6 +330,7 @@ footer {
 /* Tablet */
 @media screen and (min-width: 768px) {
 	/* Shared classes */
+
 	.space-inline {
 		margin-inline: 4rem;
 	}
@@ -381,11 +382,18 @@ footer {
 /* Desktop */
 @media screen and (min-width: 1024px) {
 	/* Burger */
+
 	.nav-link:hover {
 		color: white;
 	}
 
 	.space-inline {
 		margin-inline: 8rem;
+	}
+
+	/* Blog */
+
+	aside {
+		margin-inline: 3.5rem;
 	}
 }
