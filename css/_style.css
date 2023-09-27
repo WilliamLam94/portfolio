@@ -329,6 +329,11 @@ footer {
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+	/* Shared classes */
+	.space-inline {
+		margin-inline: 4rem;
+	}
+
 	/* Skills */
 
 	.card {
@@ -378,5 +383,9 @@ footer {
 	/* Burger */
 	.nav-link:hover {
 		color: white;
+	}
+
+	.space-inline {
+		margin-inline: 8rem;
 	}
 }
