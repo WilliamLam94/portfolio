@@ -438,7 +438,7 @@ footer {
 	}
 
 	aside {
-		margin-inline: 0 8rem;
+		margin-inline: 3rem;
 	}
 
 	/* Contact */
@@ -455,5 +455,18 @@ footer {
 
 	.space-inline {
 		margin-inline: 20rem;
+	}
+
+	/* Skills */
+
+	.svg-image {
+		height: 12.5rem;
+		width: 12.5rem;
+	}
+
+	/* Blog */
+
+	.blog-image {
+		height: 30rem;
 	}
 }
