@@ -397,6 +397,18 @@ footer {
 @media screen and (min-width: 1024px) {
 	/* Burger */
 
+	.hamburger {
+		display: none;
+	}
+
+	.navbar {
+		padding-inline-end: 15rem;
+	}
+
+	.nav-menu {
+		display: contents;
+	}
+
 	.nav-link:hover {
 		color: white;
 	}
@@ -420,11 +432,11 @@ footer {
 	}
 }
 
-/* Large Desktop */
-@media screen and (min-width: 1440px) {
+/* 4K */
+@media screen and (min-width: 2560px) {
 	/* Shared classes */
 
 	.space-inline {
-		margin-inline: 10rem;
+		margin-inline: 20rem;
 	}
 }
