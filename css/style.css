@@ -433,8 +433,16 @@ footer {
 
 	/* Blog */
 
+	.article-container {
+		padding-inline: 10rem;
+	}
+
+	.blog-text {
+		padding-inline: 5rem;
+	}
+
 	aside {
-		margin-inline: 3.5rem;
+		margin-inline: 0 8rem;
 	}
 
 	/* Contact */
