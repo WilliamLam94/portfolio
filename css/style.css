@@ -401,6 +401,8 @@ footer {
 		color: white;
 	}
 
+	/* Shared classes */
+
 	.space-inline {
 		margin-inline: 8rem;
 	}
@@ -415,5 +417,14 @@ footer {
 
 	.btn-send {
 		font-size: 1rem;
+	}
+}
+
+/* Large Desktop */
+@media screen and (min-width: 1440px) {
+	/* Shared classes */
+
+	.space-inline {
+		margin-inline: 10rem;
 	}
 }
