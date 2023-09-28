@@ -19,6 +19,7 @@ body {
 }
 
 /* Burger menu */
+
 li {
 	list-style: none;
 }
@@ -41,6 +42,7 @@ a {
 }
 
 /* Style for the links in the dropdown menu */
+
 .nav-branding {
 	font-size: 3rem;
 	color: #ffb700;
@@ -54,6 +56,7 @@ a {
 }
 
 /* Hamburger menu lines */
+
 .bar {
 	display: block;
 	width: 1.5625rem;
@@ -69,21 +72,25 @@ a {
 }
 
 /* Hide middle line */
+
 .hamburger.active .bar:nth-child(2) {
 	opacity: 0;
 }
 
 /* First line rotates */
+
 .hamburger.active .bar:nth-child(1) {
 	transform: translateY(0.5rem) rotate(45deg);
 }
 
 /* Last line rotates opposite to the first line */
+
 .hamburger.active .bar:nth-child(3) {
 	transform: translateY(-0.5rem) rotate(-45deg);
 }
 
 /* Menu of sections. Hiding the element on the far right side so it's not visible*/
+
 .nav-menu {
 	position: fixed;
 	right: -100%;
@@ -101,6 +108,7 @@ a {
 }
 
 /* Makes menu visible when clicking on hamburger. */
+
 .nav-menu.active {
 	right: 0;
 }
@@ -150,6 +158,7 @@ a {
 }
 
 /* Shared classes */
+
 .space-inline {
 	margin-inline: 1.5rem;
 	margin-block: 1rem;
@@ -310,6 +319,7 @@ textarea {
 }
 
 /* Contact information */
+
 footer {
 	background-color: #26262c;
 	display: flex;
@@ -333,6 +343,7 @@ footer {
 }
 
 /* Tablet */
+
 @media screen and (min-width: 768px) {
 	/* Shared classes */
 
@@ -394,6 +405,7 @@ footer {
 }
 
 /* Desktop */
+
 @media screen and (min-width: 1024px) {
 	/* Burger */
 
@@ -433,6 +445,7 @@ footer {
 }
 
 /* 4K */
+
 @media screen and (min-width: 2560px) {
 	/* Shared classes */
 
